@@ -34,7 +34,7 @@ const App = () => {
       <div className="container">
         <AddTask handleTaskAddition={handleTaskAddition} />
         <Tasks tasks={tasks} />
-      </div>
+      </div>  
     </>
   );
 };
